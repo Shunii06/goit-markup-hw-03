@@ -22,6 +22,9 @@ a {
 *::after {
     box-sizing: border-box;
 }
+section {
+    padding: 60px 60px;
+}
 .container {
     max-width: 1128px;
     margin: 0 auto;
@@ -37,7 +40,20 @@ a {
         letter-spacing: 0.54px;
         text-transform: uppercase;
 }
-
+.adress-box {
+    display: flex;
+    gap: 40px;
+}
+.navigation-row {
+    display: flex; 
+    gap: 24px;
+    
+}
+.allignement {
+    display: flex;
+        border-bottom: 1px solid var(--cornflower, #E7E9FC);
+        background: var(--white, #FFF);
+    }
 .main-link-bottom {
     color: var(--cloud, #F4F4FD);
         font-family: Raleway;
@@ -168,9 +184,14 @@ color: var(--slate, #434455);
         letter-spacing: 0.72px;
         text-transform: capitalize;
 }
-.imgs {
-        flex-direction: column;
-        align-items: flex-start;
+.imgs-wrapper {
+    display: flex;
+}
+.imgs-wrapper .imgs {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-inline: 24px;
 }
 .team-card{
     padding-bottom: 32px;
@@ -205,17 +226,7 @@ color: var(--slate, #434455);
         line-height: 1.5;
         letter-spacing: 0.32px;
 }
-.top-line {
-    display: flexbox;
-    border-bottom: 1px solid var(--cornflower, #E7E9FC);
-        background: var(--white, #FFF);
-}
 
-.navigation-class {
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 40px;
-}
 .onsite-navi {
 color: var(--navyblue, #2E2F42);
     font-family: Roboto;
