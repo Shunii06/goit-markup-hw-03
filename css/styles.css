@@ -370,9 +370,11 @@ border-radius: 4px;
     margin-bottom: 120px;
 }
 
-.projec-card {
+.project-card {
     width: 360px;
-    border: 1px solid var(--cornflower, #E7E9FC);
+    border-right: 1px solid var(--cornflower, #E7E9FC);
+    border-bottom: 1px solid var(--cornflower, #E7E9FC);
+    border-left: 1px solid var(--cornflower, #E7E9FC);
     background: var(--white, #FFF);
 }
 .card-content-portfolio {
