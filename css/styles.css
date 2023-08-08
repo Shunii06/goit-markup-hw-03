@@ -1,12 +1,13 @@
 :root {
---color-navyblue: #2E2F42
---color-cloud: #F4F4FD
---color-iris: #4D5AE5
---color-slate: #434455
---color-ocean: #404BBF
---color-cornflower: #E7E9FC
---color-white: #fff
+--navyblue: #2E2F42;
+--cloud: #F4F4FD;
+--iris: #4D5AE5;
+--slate: #434455;
+--ocean: #404BBF;
+--cornflower: #E7E9FC;
+--white: #fff;
 --main-font: Roboto, sans-serif
+
 }
 body {
     font-family: 'Roboto';
@@ -57,7 +58,6 @@ a {
     padding-top: 120px;
     padding-bottom: 120px;
 }
-
 
 .visually-hidden {
     position: absolute;
